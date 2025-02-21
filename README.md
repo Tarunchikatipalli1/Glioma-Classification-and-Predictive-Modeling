@@ -53,28 +53,28 @@ To run the project locally, follow these steps:
    - Visualizations and results are embedded in the rendered output for easy export.
 
 ## File Structure
-- docs/report.Rmd: Single R Markdown file containing the full analysis pipeline (data loading, preprocessing, modeling, and visualization).
-- /data/: Folder for datasets:
-  - TCGA_GBM_LGG_Mutations_all.csv: Raw clinical and mutation data.
-  - TCGA_InfoWithGrade.csv: Preprocessed numeric data.
-- README.txt: This file with project overview and instructions.
-- .gitignore: Excludes unnecessary files.
-- LICENSE: MIT License file.
+- **docs/report.Rmd**: Single R Markdown file containing the full analysis pipeline (data loading, preprocessing, modeling, and visualization).
+- **/data/**: Folder for datasets:
+  - **TCGA_GBM_LGG_Mutations_all.csv**: Raw clinical and mutation data.
+  - **TCGA_InfoWithGrade.csv**: Preprocessed numeric data.
+- **README.txt**: This file with project overview and instructions.
 
-Key Results
-Model            Accuracy  Precision  Recall    F1 Score  ROC-AUC
-k-NN             0.9702    0.98       0.9703    0.9751    0.9702
-Naive Bayes      0.8333    0.9506     0.7624    0.8462    0.8513
-Decision Tree    1.0       1.0        1.0       1.0       0.8513
+## Key Results
 
-- Best Model: k-NN offers balanced performance.
-- Note: Decision Tree's perfect scores may indicate overfitting.
+| Model         | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|---------------|----------|-----------|--------|----------|---------|
+| k-NN          | 0.9702   | 0.98      | 0.9703 | 0.9751   | 0.9702  |
+| Naïve Bayes   | 0.8333   | 0.9506    | 0.7624 | 0.8462   | 0.8513  |
+| Decision Tree | 1.0      | 1.0       | 1.0    | 1.0      | 0.8513  |
+
+- **Best Model**: k-NN offers balanced performance.
+- **Note**: Decision Tree's perfect scores may indicate overfitting.
 
 Acknowledgments
 This project leverages the following R packages:
-- Seurat: For data processing (inspiration from scRNA-seq workflows).
-- caret, e1071, rpart: For machine learning models.
-- ggplot2, corrplot, pROC: For visualizations.
+- **Seurat**: For data processing (inspiration from scRNA-seq workflows).
+- **caret, e1071, rpart**: For machine learning models.
+- **ggplot2, corrplot, pROC**: For visualizations.
 
 License
 This project is open-source and available under the MIT License.
