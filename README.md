@@ -29,7 +29,6 @@ To run the project locally, follow these steps:
 
 5. **Download the datasets:**
    - Place TCGA_GBM_LGG_Mutations_all.csv and TCGA_InfoWithGrade.csv in the /data folder.
-   - Alternatively, download from UCI Repository: https://archive.ics.uci.edu/ml/datasets/Glioma+Grading+Clinical+and+Mutation+Features
 
 6. **Run the analysis:**
    ```bash
