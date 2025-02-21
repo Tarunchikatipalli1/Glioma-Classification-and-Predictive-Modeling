@@ -34,7 +34,7 @@ To run the project locally, follow these steps:
 6. **Run the analysis:**
    ```bash
    library(rmarkdown)
-   render("docs/report.Rmd")
+   render("glioma_classification.Rmd")
    ```
 
 ## How to Use This Project
@@ -42,7 +42,7 @@ To run the project locally, follow these steps:
    - Ensure the datasets are in the /data folder with paths correctly specified in report.Rmd.
 
 2. **Run the Analysis:**
-   - Open docs/report.Rmd in RStudio and click "Knit" to execute the full pipeline.
+   - Open glioma_classification.Rmd in RStudio and click "Knit" to execute the full pipeline.
    - Alternatively, use the command above to render the file.
 
 3. **Explore Results:**
@@ -53,7 +53,7 @@ To run the project locally, follow these steps:
    - Visualizations and results are embedded in the rendered output for easy export.
 
 ## File Structure
-- **docs/report.Rmd**: Single R Markdown file containing the full analysis pipeline (data loading, preprocessing, modeling, and visualization).
+- **glioma_classification.Rmd**: Single R Markdown file containing the full analysis pipeline (data loading, preprocessing, modeling, and visualization).
 - **/data/**: Folder for datasets:
   - **TCGA_GBM_LGG_Mutations_all.csv**: Raw clinical and mutation data.
   - **TCGA_InfoWithGrade.csv**: Preprocessed numeric data.
