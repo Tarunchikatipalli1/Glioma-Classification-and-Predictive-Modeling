@@ -70,22 +70,22 @@ To run the project locally, follow these steps:
 - **Best Model**: k-NN offers balanced performance.
 - **Note**: Decision Tree's perfect scores may indicate overfitting.
 
-Acknowledgments
+## Acknowledgments
 This project leverages the following R packages:
 - **Seurat**: For data processing (inspiration from scRNA-seq workflows).
 - **caret, e1071, rpart**: For machine learning models.
 - **ggplot2, corrplot, pROC**: For visualizations.
 
-License
+## License
 This project is open-source and available under the MIT License.
 
-About
+## About
 Developed by Tarun Chikatipalli as a predictive modeling exercise for glioma grading. No additional website or topics provided.
 
 Resources
-- UCI Glioma Grading Dataset: https://archive.ics.uci.edu/ml/datasets/Glioma+Grading+Clinical+and+Mutation+Features
-- R Markdown Documentation: https://rmarkdown.rstudio.com/
-- GitHub Repository: https://github.com/Tarunchikatipalli1/Glioma-Grading-Prediction
+- **UCI Glioma Grading Dataset:**
+- **R Markdown Documentation:**
+- **GitHub Repository**
 
 
 (c) 2025 GitHub, Inc.
